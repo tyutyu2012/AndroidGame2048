@@ -165,7 +165,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <com.example.tongyu.game2048.GameView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
@@ -189,8 +189,10 @@
                 android:layout_weight="1"
                 android:background="#faf8ef"
                 android:gravity="center"
-                android:text="2"
-                android:textSize="18sp" />
+                android:text="2048"
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -204,7 +206,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -218,7 +222,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -229,10 +235,12 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
-                android:background="#faf8ef"
+                android:background="#eee4da"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -254,7 +262,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -268,7 +278,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -282,7 +294,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -293,10 +307,12 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
-                android:background="#faf8ef"
+                android:background="#ede0c8"
                 android:gravity="center"
-                android:text="2"
-                android:textSize="18sp" />
+                android:text="4"
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -318,7 +334,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -332,7 +350,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -346,7 +366,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -357,10 +379,12 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
-                android:background="#faf8ef"
+                android:background="#f2b179"
                 android:gravity="center"
-                android:text="2"
-                android:textSize="18sp" />
+                android:text="8"
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -382,7 +406,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -396,7 +422,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -410,7 +438,9 @@
                 android:background="#faf8ef"
                 android:gravity="center"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -421,10 +451,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
-                android:background="#faf8ef"
+                android:background="#f59563"
                 android:gravity="center"
-                android:text="2"
-                android:textSize="18sp" />
+                android:text="16"
+                android:textColor="#776e65"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </LinearLayout>
-    </LinearLayout>
+    </com.example.tongyu.game2048.GameView>
 </LinearLayout>
