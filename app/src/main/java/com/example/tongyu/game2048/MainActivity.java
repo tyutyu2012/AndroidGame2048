@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         currentScore = (TextView)findViewById(R.id.txt_score);
         bestScore = (TextView) findViewById(R.id.txt_best);
 
-        SwipeControl swipe = new SwipeControl(motionCapture, cards);
+        swipe = new SwipeControl(motionCapture, cards, currentScore, bestScore);
     }
 
     public void onClickNewGame(View v)
@@ -67,42 +67,19 @@ public class MainActivity extends AppCompatActivity {
                 cards[x][y].setCard(0);
             }
         }
-        addRandomNumber();
-        addRandomNumber();
-        addRandomNumber();
-        addRandomNumber();
-        addRandomNumber();
-        addRandomNumber();
-        addRandomNumber();
+        swipe.addRandomNumber();
+        swipe.addRandomNumber();
+
+        swipe.clearScore();
 
     }
 
-    // add random number at the beginning of the game
-    private void addRandomNumber()
-    {
-        emptyPoint.clear();
-
-        for(int x = 0; x < 4; x++)
-        {
-            for(int y = 0; y < 4; y++)
-            {
-                if(cards[x][y].getNum() == 0)
-                {
-                    emptyPoint.add(new Point(x, y));
-                }
-            }
-        }
-
-        Point p = emptyPoint.remove((int)(Math.random()*emptyPoint.size()));
-        cards[p.x][p.y].setCard(Math.random()>0.2 ? 2:4);
-    }
 
     private Card cards [][] = new Card[4][4];
-    private List<Point> emptyPoint = new ArrayList<Point>();
-
     private LinearLayout motionCapture;
     private Button newGame, undo, info;
     private TextView currentScore, bestScore;
     private float startX, startY, endX, endY, offsetX, offsetY;
+    private SwipeControl swipe;
 
 }
