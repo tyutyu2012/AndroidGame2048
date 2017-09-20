@@ -279,11 +279,11 @@ public class SwipeControl
         }
 
         Point p = emptyPoint.remove((int)(Math.random()*emptyPoint.size()));
-        cards[p.x][p.y].setCard(Math.random()>0.2 ? 2:4);
+        cards[p.x][p.y].setCard(Math.random()>0.1 ? 2:4);
     }
 
     public void GameOver()
     {
-        
+
     }
 }
